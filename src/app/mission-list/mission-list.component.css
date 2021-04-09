@@ -1,0 +1,32 @@
+.missionList {
+  width: "%100";
+  background-color: beige;
+  height: 250px;
+  border-color: red;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.mission {
+  color: blue;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.details{
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+}
+
+.img{
+
+height: 50px;
+width: 50px;
+
+}

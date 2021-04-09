@@ -1,0 +1,9 @@
+<p class="header">SpaceX Mission Launch List</p>
+<div class='missionListCont'>
+  <div class='missionList' *ngFor="let mission of missions">
+      <a [routerLink]="['/missiondetails', mission.flight_number]" class="mission">{{ mission.mission_name}}</a>
+      <p><img [src]="mission.links.mission_patch_small" class="img"/></p>
+      <p class="details">{{mission.launch_year}}</p>
+      <p class="details">{{mission.details}}</p>
+  </div>
+</div>

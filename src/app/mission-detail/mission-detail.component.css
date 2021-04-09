@@ -1,0 +1,30 @@
+.header{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+
+.img{
+  height: 150px;
+  width: 150px;
+}
+
+.header2{
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+
+}
+
+.detail{
+  font-weight: bold;
+}
+
+.container{
+  border: 1px solid;
+  padding-left: 15px;
+  border-radius: 10px;
+  background-color: beige;
+
+}
